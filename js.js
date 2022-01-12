@@ -8,7 +8,8 @@ function calcular() {
   let classificacao = ""; //variavel que vai passar no if.
   //validando se todos os campos foram preenchidos.
   if (nome === "" || peso === "" || altura === "") {
-    return alert("Você não preencheu todos os campos!");
+    return (document.getElementById("resultado").innerHTML =
+      "Por favor, preencha todos os campos.");
   } else if (resultadoImc < 18.5) {
     classificacao = "você está abaixo do peso ideal";
   } else if (resultadoImc <= 24.9) {
