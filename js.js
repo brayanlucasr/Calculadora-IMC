@@ -7,7 +7,7 @@ function calcular() {
   let resultadoImc = (peso / alturax2).toFixed(1); //dividindo o peso multiplicado pelo peso informado.
   let classificacao = ""; //variavel que vai passar no if.
   //validando se todos os campos foram preenchidos.
-  if (nome === "" || peso === "" || altura === "") {
+  if (nome === "" || peso === "" || altura === "" || altura === "0") {
     return (document.getElementById("resultado").innerHTML =
       "Por favor, preencha todos os campos.");
   } else if (resultadoImc < 18.5) {
