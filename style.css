@@ -1,163 +1,68 @@
 body {
   margin: 0;
   padding: 0;
-  text-align: center;
   background-color: rgb(83, 82, 82);
-  font-family: serif;
 }
 
 #container {
-  margin: 0 auto;
-  margin-top: 20px;
-  border: transparent;
-  height: 220px;
-  width: 350px;
-  padding: 15px;
-  border-radius: 10px;
   background-color: rgb(209, 188, 2);
-  box-shadow: 5px 5px 5px 2px rgb(34 34 34);
+  margin: 0 auto;
+  text-align: center;
+  width: 280px;
+  height: 390px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 2px rgb(34, 34, 34);
 }
 
 #container h1 {
-  margin-top: 2px;
-  margin-bottom: -2px;
+  padding-top: 15px;
 }
 
 #formatacao {
-  float: left;
+  justify-content: center;
+  display: flex;
+}
+
+#formatacao h4 {
+  margin-top: 8px;
 }
 
 #formatacao input {
-  text-align: center;
-  border-radius: 10px;
-  border-color: transparent;
-  width: 75px;
-  margin: 2px;
-}
-
-#btnPadrao {
-  background-color: black;
-  color: rgb(209, 188, 2);
+  width: 135px;
+  height: 30px;
   border-radius: 5px;
-  border: transparent;
-  margin-top: 10px;
-  height: 27px;
-  width: 100px;
+  border-color: transparent;
+  text-align: center;
 }
 
-.formatacaoResultado {
+#btnCalcular {
+  width: 200px;
+  height: 30px;
+  color: yellow;
   background-color: black;
-  width: 300px;
-  height: 50px;
-  margin: 0 auto;
-  margin-top: 10px;
-  border-radius: 10px;
-  color: white;
-  padding: 10px;
-  padding-bottom: 18px;
+  border-radius: 5px;
+  border-color: transparent;
 }
 
-#container2 {
+#resultado {
+  width: 200px;
+  height: 70px;
+  background-color: black;
   margin: 0 auto;
   margin-top: 20px;
-  margin-top: 20px;
-  border: transparent;
-  height: 220px;
-  width: 360px;
-  padding: 15px;
-  border-radius: 10px;
-  background-color: rgb(209, 188, 2);
-  box-shadow: 5px 5px 5px 2px rgb(34 34 34);
-}
-
-#container2 h1 {
-  margin-top: 1px;
-  margin-bottom: -2px;
-  font-size: 23px;
+  border-radius: 5px;
+  padding-top: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 hr {
-  width: 360px;
+  background-color: black;
+  height: 3px;
+  border: 0;
+  margin-top: -10px;
 }
 
-#formatacao2 input {
-  text-align: center;
-  border-radius: 10px;
-  border-color: transparent;
-  width: 75px;
-  margin: 2px;
-}
-
-#container3 {
-  margin: 0 auto;
-  margin-top: 20px;
-  border: transparent;
-  height: 220px;
-  width: 360px;
-  padding: 15px;
-  border-radius: 10px;
-  background-color: rgb(209, 188, 2);
-  box-shadow: 5px 5px 5px 2px rgb(34 34 34);
-}
-
-#container3 h1 {
-  margin-top: 2px;
-  margin-bottom: -2px;
-}
-
-#container4 {
-  margin: 0 auto;
-  margin-top: 20px;
-  border: transparent;
-  height: 220px;
-  width: 360px;
-  padding: 15px;
-  border-radius: 10px;
-  background-color: rgb(209, 188, 2);
-  box-shadow: 5px 5px 5px 2px rgb(34 34 34);
-}
-
-#container4 h1 {
-  margin-top: 2px;
-  margin-bottom: -2px;
-}
-
-#formatacao3 input {
-  text-align: center;
-  border-radius: 10px;
-  border-color: transparent;
-  width: 75px;
-  margin: 2px;
-}
-
-#container5 {
-  margin: 0 auto;
-  margin-top: 20px;
-  border: transparent;
-  height: 220px;
-  width: 360px;
-  padding: 15px;
-  border-radius: 10px;
-  margin-bottom: 50px;
-  background-color: rgb(209, 188, 2);
-  box-shadow: 5px 5px 5px 2px rgb(34 34 34);
-}
-
-#formatacao5 {
-  margin: 0 auto;
-  margin-top: 50px;
-}
-
-#formatacao5 h1 {
-  margin-top: -50px;
-  margin-bottom: -5px;
-}
-
-#formatacao5 input {
-  text-align: center;
-  border-radius: 10px;
-  border-color: transparent;
-  width: 300px;
-  height: 30px;
-  margin: 2px;
+footer{
+margin: 6px;
 }
